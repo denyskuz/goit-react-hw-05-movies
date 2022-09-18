@@ -1,0 +1,32 @@
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 120px) / 5);
+    transition: .3s;
+}
+
+.item a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+
+.item strong {
+    display: block;
+    margin-top: 16px;
+}
+.item:hover {
+    transition: .3s;
+    transform: scale(1.1);
+}
